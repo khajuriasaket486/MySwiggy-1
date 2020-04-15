@@ -30,16 +30,16 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="db driver - db.sqlite3" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="db driver - db.sqlite3" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="db driver - db.sqlite3" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
       </path>
@@ -93,14 +93,57 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-2077941803">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="auth_group" value="1" />
+          <entry key="django_session" value="3" />
+          <entry key="html" value="7" />
+          <entry key="py" value="2" />
+          <entry key="s_admin_adminloginmodel" value="4" />
+          <entry key="s_admin_areamodel" value="5" />
+          <entry key="s_admin_citymodel" value="4" />
+          <entry key="s_admin_statemodel" value="5" />
+          <entry key="sql" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Database Element" value="22" />
+          <entry key="HTML" value="7" />
+          <entry key="Python" value="2" />
+          <entry key="Scratch" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cell" value="49" />
+          <entry key="html" value="30" />
+          <entry key="py" value="74" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="30" />
+          <entry key="Python" value="74" />
+          <entry key="Scratch" value="49" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/s_admin/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+            <state relative-caret-position="346">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="e#630#662#0" expanded="true" />
               </folding>
@@ -108,43 +151,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/s_admin/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="97" column="17" lean-forward="true" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
+            <state relative-caret-position="19">
+              <caret line="94" column="31" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/s_admin/open_area.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="96" column="82" selection-start-line="96" selection-start-column="82" selection-end-line="96" selection-end-column="82" />
-              <folding>
-                <element signature="e#562#604#0#HTML" expanded="true" />
-                <element signature="e#1507#1533#0#HTML" expanded="true" />
-                <element signature="e#1976#2018#0#HTML" expanded="true" />
-                <element signature="e#2185#2212#0#HTML" expanded="true" />
-                <element signature="e#2267#2293#0#HTML" expanded="true" />
-                <element signature="e#2512#2539#0#HTML" expanded="true" />
-                <element signature="e#2597#2623#0#HTML" expanded="true" />
-                <element signature="e#2837#2863#0#HTML" expanded="true" />
-                <element signature="e#3175#3201#0#HTML" expanded="true" />
-                <element signature="e#3257#3283#0#HTML" expanded="true" />
-                <element signature="e#3335#3361#0#HTML" expanded="true" />
-                <element signature="e#3414#3440#0#HTML" expanded="true" />
-                <element signature="e#3489#3515#0#HTML" expanded="true" />
-                <element signature="e#3649#3675#0#HTML" expanded="true" />
-                <element signature="e#3732#3758#0#HTML" expanded="true" />
-                <element signature="e#3818#3844#0#HTML" expanded="true" />
-                <element signature="e#3911#3937#0#HTML" expanded="true" />
-                <element signature="e#4259#4285#0#HTML" expanded="true" />
-                <element signature="e#4685#4763#0#HTML" expanded="true" />
+                <marker date="1586973089867" expanded="true" signature="2587:2707" ph="..." />
               </folding>
             </state>
           </provider>
@@ -153,27 +167,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/s_admin/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-              <folding>
-                <marker date="1586881011362" expanded="true" signature="238:243" ph="..." />
-                <marker date="1586881011362" expanded="true" signature="436:441" ph="..." />
-                <marker date="1586881011362" expanded="true" signature="686:687" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/s_admin/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="10" />
-              <folding>
-                <element signature="e#1#25#0" expanded="true" />
-                <marker date="1586876666906" expanded="true" signature="172:177" ph="..." />
-                <marker date="1586876666906" expanded="true" signature="282:383" ph="..." />
-              </folding>
+            <state relative-caret-position="84">
+              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -181,26 +176,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/s_admin/menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+            <state relative-caret-position="260">
+              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/s_admin/admin_home.html">
+        <entry file="file://$PROJECT_DIR$/templates/s_admin/open_city.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="178">
+              <caret line="105" column="74" selection-start-line="105" selection-start-column="74" selection-end-line="105" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/s_admin/login.html">
+        <entry file="file://$PROJECT_DIR$/templates/s_admin/open_state.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
+            <state relative-caret-position="178">
+              <caret line="89" column="62" selection-start-line="89" selection-start-column="56" selection-end-line="89" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -214,6 +209,14 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>refres</find>
+      <find>sno</find>
+      <find>update_</find>
+      <find>delete</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -230,12 +233,12 @@
         <option value="$PROJECT_DIR$/templates/s_admin/admin_home.html" />
         <option value="$PROJECT_DIR$/s_admin/forms.py" />
         <option value="$PROJECT_DIR$/templates/open_state.html" />
-        <option value="$PROJECT_DIR$/templates/s_admin/open_city.html" />
-        <option value="$PROJECT_DIR$/s_admin/urls.py" />
         <option value="$PROJECT_DIR$/templates/s_admin/menu.html" />
+        <option value="$PROJECT_DIR$/templates/s_admin/open_area.html" />
+        <option value="$PROJECT_DIR$/s_admin/urls.py" />
         <option value="$PROJECT_DIR$/s_admin/views.py" />
         <option value="$PROJECT_DIR$/s_admin/models.py" />
-        <option value="$PROJECT_DIR$/templates/s_admin/open_area.html" />
+        <option value="$PROJECT_DIR$/templates/s_admin/open_city.html" />
       </list>
     </option>
   </component>
@@ -251,6 +254,23 @@
     <option name="width" value="1040" />
     <option name="height" value="690" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PyInterpreterInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -259,6 +279,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,6 +291,12 @@
               <item name="Swiggy" type="b2602c69:ProjectViewProjectNode" />
               <item name="Swiggy" type="462c0819:PsiDirectoryNode" />
               <item name="s_admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Swiggy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Swiggy" type="462c0819:PsiDirectoryNode" />
+              <item name="s_admin" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Swiggy" type="b2602c69:ProjectViewProjectNode" />
@@ -291,13 +318,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/db.sqlite3" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -365,15 +392,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1107" height="602" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.24928367" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2526475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7489362" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40752864" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -383,14 +410,14 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.50212765" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.30605564" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Python Console" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" weight="0.3295129" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.093797274" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24928367" />
@@ -446,34 +473,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_adminloginmodel">
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_adminloginmodel" />
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/django_session" />
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_statemodel" />
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_citymodel" />
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/django_session">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Swiggy/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="18" />
-          <folding>
-            <element signature="e#630#662#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/s_admin/common.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="12" selection-start-line="14" selection-start-column="11" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/s_admin/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="67" selection-start-line="25" selection-start-column="67" selection-end-line="25" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -484,10 +491,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/s_admin/admin_home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/django_session">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
@@ -498,145 +505,268 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/s_admin/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="10" />
-          <folding>
-            <element signature="e#1#25#0" expanded="true" />
-            <marker date="1586876666906" expanded="true" signature="172:177" ph="..." />
-            <marker date="1586876666906" expanded="true" signature="282:383" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/s_admin/open_state.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1360">
-          <caret line="94" column="53" lean-forward="true" selection-end-line="116" selection-end-column="14" />
-          <folding>
-            <element signature="e#287#552#0#HTML" />
-            <element signature="e#526#568#0#HTML" expanded="true" />
-            <element signature="e#709#746#0#HTML" expanded="true" />
-            <element signature="e#795#821#0#HTML" expanded="true" />
-            <element signature="e#998#1024#0#HTML" expanded="true" />
-            <element signature="e#1378#1420#0#HTML" expanded="true" />
-            <element signature="e#1587#1614#0#HTML" expanded="true" />
-            <element signature="e#1687#1713#0#HTML" expanded="true" />
-            <element signature="e#1577#1604#0#HTML" expanded="true" />
-            <element signature="e#1677#1703#0#HTML" expanded="true" />
-            <element signature="e#1880#1906#0#HTML" expanded="true" />
-            <element signature="e#1288#1314#0#HTML" expanded="true" />
-            <element signature="e#1368#1394#0#HTML" expanded="true" />
-            <element signature="e#1429#1455#0#HTML" expanded="true" />
-            <element signature="e#1492#1518#0#HTML" expanded="true" />
-            <element signature="e#1703#1729#0#HTML" expanded="true" />
-            <element signature="e#1773#1799#0#HTML" expanded="true" />
-            <element signature="e#1846#1872#0#HTML" expanded="true" />
-            <element signature="e#1921#1947#0#HTML" expanded="true" />
-            <element signature="e#619#697#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/s_admin/menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="18" column="46" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/s_admin/open_city.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="112" column="13" lean-forward="true" selection-end-line="127" selection-end-column="14" />
-          <folding>
-            <element signature="e#564#606#0#HTML" expanded="true" />
-            <element signature="e#1066#1092#0#HTML" expanded="true" />
-            <element signature="e#1535#1577#0#HTML" expanded="true" />
-            <element signature="e#1744#1771#0#HTML" expanded="true" />
-            <element signature="e#1826#1852#0#HTML" expanded="true" />
-            <element signature="e#2071#2098#0#HTML" expanded="true" />
-            <element signature="e#2156#2182#0#HTML" expanded="true" />
-            <element signature="e#2396#2422#0#HTML" expanded="true" />
-            <element signature="e#2734#2760#0#HTML" expanded="true" />
-            <element signature="e#2816#2842#0#HTML" expanded="true" />
-            <element signature="e#3330#3356#0#HTML" expanded="true" />
-            <element signature="e#2889#2915#0#HTML" expanded="true" />
-            <element signature="e#2964#2990#0#HTML" expanded="true" />
-            <element signature="e#3124#3150#0#HTML" expanded="true" />
-            <element signature="e#3208#3234#0#HTML" expanded="true" />
-            <element signature="e#3818#3844#0#HTML" expanded="true" />
-            <element signature="e#3295#3321#0#HTML" expanded="true" />
-            <element signature="e#3631#3657#0#HTML" expanded="true" />
-            <element signature="e#4045#4123#0#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_citymodel">
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_statemodel">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/s_admin/urls.py">
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/django_session">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_statemodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_statemodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/auth_group">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s_admin/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="200">
+          <caret line="10" selection-start-line="8" selection-start-column="16" selection-end-line="10" />
+          <folding>
+            <element signature="e#1#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/django_session">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/django_session">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/django_session">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/django_session">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_areamodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_statemodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_statemodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_statemodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://f1ff5974-aeef-4b8b-86e7-8987d8fa4827/schema/main/table/s_admin_statemodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d804def3-f3f3-4d83-9613-370e8d65f473/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/admin_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/open_area.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="96" column="82" selection-start-line="96" selection-start-column="82" selection-end-line="96" selection-end-column="82" />
+          <folding>
+            <element signature="e#3817#3843#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Swiggy/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="21" column="38" lean-forward="true" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
           <folding>
             <element signature="e#630#662#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/s_admin/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="97" column="17" lean-forward="true" selection-start-line="97" selection-start-column="17" selection-end-line="97" selection-end-column="17" />
+        <state relative-caret-position="20">
+          <caret line="1" column="27" lean-forward="true" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
           <folding>
-            <element signature="e#0#44#0" expanded="true" />
+            <element signature="e#905#931#0#HTML" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/common.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/menu.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/open_state.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="89" column="62" selection-start-line="89" selection-start-column="56" selection-end-line="89" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s_admin/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#630#662#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d804def3-f3f3-4d83-9613-370e8d65f473/schema/main/table/s_admin_adminloginmodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d804def3-f3f3-4d83-9613-370e8d65f473/schema/main/table/django_session">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d804def3-f3f3-4d83-9613-370e8d65f473/schema/main/table/s_admin_citymodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d804def3-f3f3-4d83-9613-370e8d65f473/schema/main/table/s_admin_statemodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d804def3-f3f3-4d83-9613-370e8d65f473/schema/main/table/s_admin_areamodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/5dfbd43a-045f-4e77-bd4e-c046f10c0e33/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://5dfbd43a-045f-4e77-bd4e-c046f10c0e33/schema/main/table/s_admin_citymodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://5dfbd43a-045f-4e77-bd4e-c046f10c0e33/schema/main/table/s_admin_statemodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/19b9fdf2-b8c4-4e88-988f-0f0759c299b6/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://19b9fdf2-b8c4-4e88-988f-0f0759c299b6/schema/main/table/s_admin_adminloginmodel">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/s_admin/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding>
-            <marker date="1586881011362" expanded="true" signature="238:243" ph="..." />
-            <marker date="1586881011362" expanded="true" signature="436:441" ph="..." />
-            <marker date="1586881011362" expanded="true" signature="686:687" ph="..." />
-          </folding>
+        <state relative-caret-position="84">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/s_admin/open_area.html">
+    <entry file="file://$PROJECT_DIR$/templates/s_admin/open_city.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="96" column="82" selection-start-line="96" selection-start-column="82" selection-end-line="96" selection-end-column="82" />
+        <state relative-caret-position="178">
+          <caret line="105" column="74" selection-start-line="105" selection-start-column="74" selection-end-line="105" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/s_admin/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="94" column="31" selection-start-line="94" selection-start-column="31" selection-end-line="94" selection-end-column="31" />
           <folding>
-            <element signature="e#562#604#0#HTML" expanded="true" />
-            <element signature="e#1507#1533#0#HTML" expanded="true" />
-            <element signature="e#1976#2018#0#HTML" expanded="true" />
-            <element signature="e#2185#2212#0#HTML" expanded="true" />
-            <element signature="e#2267#2293#0#HTML" expanded="true" />
-            <element signature="e#2512#2539#0#HTML" expanded="true" />
-            <element signature="e#2597#2623#0#HTML" expanded="true" />
-            <element signature="e#2837#2863#0#HTML" expanded="true" />
-            <element signature="e#3175#3201#0#HTML" expanded="true" />
-            <element signature="e#3257#3283#0#HTML" expanded="true" />
-            <element signature="e#3335#3361#0#HTML" expanded="true" />
-            <element signature="e#3414#3440#0#HTML" expanded="true" />
-            <element signature="e#3489#3515#0#HTML" expanded="true" />
-            <element signature="e#3649#3675#0#HTML" expanded="true" />
-            <element signature="e#3732#3758#0#HTML" expanded="true" />
-            <element signature="e#3818#3844#0#HTML" expanded="true" />
-            <element signature="e#3911#3937#0#HTML" expanded="true" />
-            <element signature="e#4259#4285#0#HTML" expanded="true" />
-            <element signature="e#4685#4763#0#HTML" expanded="true" />
+            <element signature="e#0#44#0" expanded="true" />
+            <marker date="1586973089867" expanded="true" signature="2587:2707" ph="..." />
           </folding>
         </state>
       </provider>

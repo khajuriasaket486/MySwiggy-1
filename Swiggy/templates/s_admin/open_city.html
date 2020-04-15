@@ -97,15 +97,15 @@
                     <th style="text-align: center" width="200">{{ x.state.state_name }}</th>
                     <th style="text-align: center" width="100">
 
-{#                        <a href="{% url 'update_state' %}?sno={{ x.state_no }}&sname={{ x.state_name }}">#}
-{#                            <img src="{% static 'images/refresh-page-option.png' %}" width="25" height="25">#}
-{#                        </a>#}
+                        <a href="{% url 'update_city' %}?sno={{ x.city_no }}&sname={{ x.city_name }}">
+                            <img src="{% static 'images/refresh-page-option.png' %}" width="25" height="25">
+                        </a>
 
                     </th>
                     <th style="text-align: center" width="100">
-{#                        <a href="{% url 'delete_state' %}?sno={{ x.state_no }}">#}
-{#                            <img src="{% static 'images/delete.png' %}" width="25" height="25">#}
-{#                        </a>#}
+                        <a href="{% url 'delete_city' %}?sno={{ x.city_no }}">
+                            <img src="{% static 'images/delete.png' %}" width="25" height="25">
+                        </a>
                     </th>
                 </tr>
                 {% endfor %}

@@ -34,9 +34,9 @@ urlpatterns = [
     #City
     path('open_city/', views.open_city, name="open_city"),
     path('save_city/', views.save_city, name="save_city"),
-    # path('update_city/', views.update_city, name="update_city"),
+    path('update_city/', views.update_city, name="update_city"),
     # path('update_city_data/', views.update_city_data, name="update_city_data"),
-    # path('delete_city/', views.delete_city, name='delete_city'),
+    path('delete_city/', views.delete_city, name='delete_city'),
 
     #Area
     path('open_area/', views.open_area, name="open_area"),
